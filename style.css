@@ -1,0 +1,57 @@
+.heading { font-size:25px;
+    width:100%;
+    box-shadow:5px 5px 5px black;
+}
+.heading_div {
+    background-color:white;
+    color:black;
+    float:none;
+    padding:10px;
+    border-radius:20px;
+    box-shadow:5px 5px 5px grey;
+    margin-left:310px;
+}
+.heading_div2 {
+font-size:20px;
+}
+
+.result_para_style{
+    font-size:20px;  
+    box-shadow: 5px 5px 5px grey;
+  
+  }
+  .copy_right_footer{
+      position: fixed;
+      bottom: 0;
+      background-color: grey;
+      color: black;
+      width: 100%;
+      text-align: center;
+      line-height: 1;
+      font-size: 15px;
+      
+  }
+  canvas{
+      margin-top: 150px;
+      border: grey;
+      border-width:5px;
+      border-color: hotpink;
+      border-style: groove;
+      border-radius:2px;
+      animation-name: eg;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+  
+  
+  }
+  @keyframes eg{
+      from{box-shadow: 1px 1px 38px rgb(189, 52, 75);}
+      to{box-shadow: 1px 1px 38px purple;}
+  }
+  
+     
+  
+  
+
+   
+
